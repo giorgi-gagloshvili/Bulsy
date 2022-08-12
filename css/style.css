@@ -635,14 +635,16 @@ header {
 	.inner-wrapper {
 		padding-left: 20px;
 		padding-right: 20px;
+		position: relative;
 	}
 	.burger-menu {
 		display: block;
 		position: absolute;
 		width: 40px;
-		top: 32px;
+		top: 50%;
 		right: 12px;
 		z-index: 100;
+		transform: translateY(-50%);
 	}
 	.price {
 		display: none;
@@ -654,7 +656,7 @@ header {
 		margin-bottom: 6px;
 	}
 	.navbar-bottom {
-		height: 160px;
+		height: auto;
 	}
 	.mynav2 {
 		display: none;
