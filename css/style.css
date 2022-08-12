@@ -673,6 +673,10 @@ header {
 		margin: 0;
 	    justify-content: center;
 	}
+	.blog-title h2 {
+		font-size: 32px;
+		line-height: 120%;
+	}
 	.foonav {
 		display: none;
 	}
