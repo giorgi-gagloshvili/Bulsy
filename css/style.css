@@ -516,6 +516,10 @@ header {
 	padding: 15px;
 }
 
+.blog-title p {
+	padding-top: 1rem;
+}
+
 
 .foo1 {
 	background: var(--mn-color);
@@ -595,9 +599,7 @@ header {
 	padding-right: 10px;
 	font-size: 18px;
 }
-.foo2 p {
-	
-}
+
 
 @media(max-width: 1448px) {
 	.inner-wrapper {
@@ -685,5 +687,8 @@ header {
 	}
 	.social {
 		margin-bottom: 1rem;
+	}
+	.foo2 p {
+		font-size: 14px;
 	}
 }
